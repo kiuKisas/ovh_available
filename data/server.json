@@ -21,26 +21,26 @@
 	"url": "http://www.soyoustart.com/en/serveurs-essential/",
 	"server": {
 
-	    "142sys4":  "SYS-IP-1",
-	    "142sys5":  "SYS-IP-2",
-	    "142sys8":  "SYS-IP-4",
-	    "142sys6":  "SYS-IP-5",
-	    "142sys10": "SYS-IP-5S",
-	    "142sys7":  "SYS-IP-6",
-	    "142sys9":  "SYS-IP-6S",
+	    "SYS-IP-1":  "142sys4",
+	    "SYS-IP-2":  "142sys5",
+    	    "SYS-IP-4":  "142sys8",
+	    "SYS-IP-5":  "142sys6",
+	    "SYS-IP-5S":  "142sys10",
+	    "SYS-IP-6":  "142sys7",
+	    "SYS-IP-6S":  "142sys9",
 
-	    "143sys13": "E3-SSD-1",
-	    "143sys10": "E3-SSD-2",
-	    "143sys11": "E3-SSD-3",
-	    "143sys12": "E3-SSD-4",
+	    "E3-SSD-1": "143sys13",
+	    "E3-SSD-2": "143sys10",
+	    "E3-SSD-3": "143sys11",
+	    "E3-SSD-4": "143sys12",
 
-	    "143sys4":  "E3-SAT-1",
-	    "143sys1":  "E3-SAT-2",
-	    "143sys2":  "E3-SAT-3",
-	    "143sys3":  "E3-SAT-4",
+	    "E3-SAT-1": "143sys4",
+	    "E3-SAT-2": "143sys1",
+	    "E3-SAT-3": "143sys2",
+	    "E3-SAT-4": "143sys3",
 
-	    "141bk1":   "BK-8T",
-	    "141bk2":   "BK-24T"
+	    "BK-8T": "141bk1",
+	    "BK-24T": "141bk2"
 	}
     },
 
