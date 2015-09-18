@@ -1,0 +1,19 @@
+[notification]
+
+- système
+
+- qt - popup
+- qt - petite bulle
+
+- choisir d'allez sur le site ou pas
+
+[gui]
+
+- choix du reload_time
+
+[after]
+- faire un ovh-cli
+- pushbullet
+- mail
+- sms
+- RubyOnRails - server mode

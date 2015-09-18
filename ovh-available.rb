@@ -1,0 +1,17 @@
+#!/usr/bin/env ruby
+# -*- coding: utf-8 -*-
+
+#############################################################################
+#                                                                           #
+#                        Welcome to ovh-available !                         #
+#   This program check if an ovh server (previously selected) is available  #
+#                          This program require Qt4                         #
+#                    and QtRuby (gem install qtbindings)                    #
+#                                                                           #
+#############################################################################
+
+require_relative 'lib/ovh-crawl'
+require_relative 'lib/ovh-data'
+require_relative 'lib/Qt/qt-gui'
+
+QtGUI.new(gen_website_hash).show
