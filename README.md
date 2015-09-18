@@ -1,13 +1,13 @@
 # ovh_available
 
-ovh_available is a little ovh crawler writing in ruby with a gui in Qt4. It allow you to survey if an ovh server is available for rent.
+ovh_available is a little ovh crawler written in ruby with a gui in Qt4. It allows you to survey if an ovh server is available for rent.
 
 ## Install
 
 You need ruby, Qt4 and QtRuby. An example on arch:
 > pacman -S qt4 ruby
 
-You can use the gem manager for install QtRuby:
+You can use the gem manager to install QtRuby:
 > gem install qtbindings
 
 ## Screenshots
@@ -25,7 +25,7 @@ You can use the gem manager for install QtRuby:
 ## To-do
 
 * multiple server crawler
-* add more server to server.json
+* add more servers to server.json
 * make a server version in RubyOnRails
-* add notification
+* add notifications
 * better link to rent
