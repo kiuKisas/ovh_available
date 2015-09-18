@@ -13,10 +13,12 @@ You can use the gem manager for install QtRuby:
 ## Screenshots
 
 ![Menu](https://github.com/kiuKisas/ovh_available/blob/master/img/menu.png "Menu")
+
 ![Desktop](https://github.com/kiuKisas/ovh_available/blob/master/img/notif_desktop.png "Desktop")
+
 ![Popup](https://github.com/kiuKisas/ovh_available/blob/master/img/notif_popup.png "Popup")
 
-## known issues
+## Known issues
 
 * bug with kimsufi - KS-4
 
