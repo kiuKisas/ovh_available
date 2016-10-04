@@ -23,6 +23,7 @@ class Server
   end
 
   def to_s
+    ret = ''
     if $local_hash[@local]
       ret = "#{$local_hash[@local]} - "
     elsif
@@ -33,7 +34,7 @@ class Server
     elsif
       ret += @available
     end
-    return ret
+    ret
   end
 
 end
@@ -58,7 +59,7 @@ class Server_type
   def get_available()
     @available = 0
     @server_tab.each do |server|
-      if server.available != "unknown"
+      if server.available != "unavailable" && server.available != "unknown"
         @available += 1
       end
     end
@@ -90,7 +91,7 @@ end
 
 # class for crawl
 
-class   OVH_crawl
+class OVH_crawl
 
   def get_new_session()
       Net::HTTP::Get.new(@get_session.to_s)

@@ -2,13 +2,17 @@
 
 ovh_available is a little ovh crawler written in ruby with a gui in Qt4. It allows you to survey if an ovh server is available for rent.
 
+## Known issues
+
+`qtbindings` seems to have some issues with `ruby 2.3`. Please use `ruby 2.2` instead.
+
 ## Install
 
 You need ruby, Qt4 and QtRuby. An example on arch:
 > pacman -S qt4 ruby
 
-You can use the gem manager to install QtRuby:
-> gem install qtbindings
+Then use bundle to install dependencies:
+> bundle install
 
 ## Screenshots
 
@@ -17,10 +21,6 @@ You can use the gem manager to install QtRuby:
 ![Desktop](https://github.com/kiuKisas/ovh_available/blob/master/img/notif_desktop.png "Desktop")
 
 ![Popup](https://github.com/kiuKisas/ovh_available/blob/master/img/notif_popup.png "Popup")
-
-## Known issues
-
-* bug with kimsufi - KS-4
 
 ## To-do
 
