@@ -21,10 +21,9 @@ class Website
   end
 end
 
-def     gen_website_hash
+def gen_website_hash
 
   website_hash = Hash.new
-
   JSON.parse(File.read("./data/server.json")).each do |website, data|
     website_hash[website] = Website.new(website, data["url"], data["server"])
     end
